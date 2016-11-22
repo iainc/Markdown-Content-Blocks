@@ -6,7 +6,7 @@ We liked the idea:
 
 ```
 http://example.com/minard.jpg (Napoleon’s disastrous Russian campaign of 1812)
-/Flowchart.png "Enginering Flowchart"
+/Flowchart.png "Engineering Flowchart"
 ```
 
 At the time, we were also looking for a syntax for [file transclusion][transclusion]. The same idea applied equally well to other file types:
