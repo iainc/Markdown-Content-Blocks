@@ -45,7 +45,7 @@ We describe content block syntax closely following John Gruber’s [Markdown Syn
 
 A content block consists of:
 
-- a [online image][online-image] URL, or a a [local file][local-file] path, optionally indented by up to three spaces;
+- a [online image][online-image] URL, or a [local file][local-file] path, optionally indented by up to three spaces;
 - optionally followed by a [title][], enclosed in double or single quotes, or enclosed in parentheses, which, if present, must be separated from the URL or path by one or more spaces (or tabs).
 
 [online-image]: #online-image
