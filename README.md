@@ -54,14 +54,15 @@ A content block consists of:
 
 ---
 
-A <a id="online-image" href="#online-image">online image</a> URL consists of either:
+An <a id="online-image" href="#online-image">online image</a> URL consists of either:
 
 - a sequence of zero or more characters between an opening `<` and a closing `>` that contains no spaces, line breaks, or unescaped `<` or `>` characters, or
 - a nonempty sequence of characters that does not include ASCII space or control characters, and includes parentheses only if (a) they are backslash-escaped or (b) they are part of a balanced pair of unescaped parentheses that is not itself inside a balanced pair of unescaped parentheses
 
-which includes:
+which ends with:
 
 - a period, followed by one of the following path extensions: `png` `jpg` `jpeg` `gif` `tif` `tiff`.
+- optionally followed by a query string.
 
 iA Writer automatically uses direct links for images hosted on some services. Currently, it adds `raw=1` query item for online image URLs from GitHub and Dropbox.
 
