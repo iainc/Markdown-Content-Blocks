@@ -61,8 +61,9 @@ An <a id="online-image" href="#online-image">online image</a> URL consists of ei
 
 which ends with:
 
-- a period, followed by one of the following path extensions: `png` `jpg` `jpeg` `gif` `tif` `tiff`.
-- optionally followed by a query string.
+- a period `.`, followed by one of the following case-insensitive path extensions: `png` `jpg` `jpeg` `gif` `tif` `tiff`;
+- optionally followed by a query string starting with `?`;
+- optionally followed by a fragment identifier starting with `#`, e.g. for ![Media Fragments](https://www.w3.org/TR/media-frags/).
 
 iA Writer automatically uses direct links for images hosted on some services. Currently, it adds `raw=1` query item for online image URLs from GitHub and Dropbox.
 
@@ -76,7 +77,7 @@ A <a id="local-file" href="#local-file">local file</a> path consists of one or m
 
 ---
 
-A content block <a id="content-block-title" href="#content-block-title">title</a> consists of of either:
+A content block <a id="content-block-title" href="#content-block-title">title</a> consists of either:
 
 - a sequence of zero or more characters between straight double-quote characters `"`, including a `"` character only if it is backslash-escaped, or
 - a sequence of zero or more characters between; straight single-quote characters `'`, including a `'` character only if it is backslash-escaped, or
