@@ -62,8 +62,8 @@ An <a id="online-image" href="#online-image">online image</a> URL consists of ei
 which ends with:
 
 - a period, followed by one of the following path extensions: `png` `jpg` `jpeg` `gif` `tif` `tiff` `svg`;
-- optionally followed by a fragment identifier;
-- optionally followed by a query string.
+- optionally followed by a query string;
+- optionally followed by a fragment identifier.
 
 iA Writer automatically uses direct links for images hosted on some services. Currently, it adds `raw=1` query item for online image URLs from GitHub and Dropbox.
 
