@@ -77,7 +77,7 @@ A <a id="local-file" href="#local-file">local file</a> path consists of one or m
 
 ---
 
-A content block <a id="content-block-title" href="#content-block-title">title</a> consists of of either:
+A content block <a id="content-block-title" href="#content-block-title">title</a> consists of either:
 
 - a sequence of zero or more characters between straight double-quote characters `"`, including a `"` character only if it is backslash-escaped, or
 - a sequence of zero or more characters between; straight single-quote characters `'`, including a `'` character only if it is backslash-escaped, or
