@@ -1,3 +1,7 @@
+---
+Version: 0.4
+...
+
 John Gruber [remarked](https://twitter.com/gruber/status/701951688903630848) that image syntax was his biggest mistake with Markdown, and [mentioned](https://twitter.com/gruber/status/701951915605827585) an alternative:
 
 > My best idea for good Markdown img syntax would be to just paste in a URL ending in .jpg/.png/.gif etc.
