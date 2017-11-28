@@ -89,4 +89,4 @@ A content block <a id="content-block-title" href="#content-block-title">title</a
 
 Content block titles block titles have obvious uses for some files, for example image alt attributes and figure captions, table captions. Content block titles are ignored when there’s no obvious use, for example with other plain text files.
 
-Source code path extensions are mapped to programming language names with [`Languages.json`](Languages.json).
+Source code path extensions are mapped to programming language names with [`Languages.json`](Languages.json) when path extensions are different from lowercased programming language names.
